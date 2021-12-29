@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link id="cssGirar" rel="stylesheet">
+    <title>Reproductor</title>
+</head>
+<body>
+    
+    <h1>Music Player</h1>
+    <div class="reproductor">
+        <p id="tituloCancion">B</p>
+        <div id="img">
+            <img id="rotarImg" src="img/eyes-285825.svg" alt="gato">
+        </div>
+        <div id="btn">
+            <!-- <ion-icon name="pause-outline"></ion-icon> -->
+            <button id="anterior"><ion-icon name="play-skip-back-outline"></ion-icon></button>
+            <button id="pause"><ion-icon name="play-outline"></ion-icon></button>
+            <button id="posterior"><ion-icon name="play-skip-forward-outline"></ion-icon></button>
+        </div>
+        <audio id="musica" controls preload="" src="audio/BAD BUNNY - 120 _ EL ÚLTIMO TOUR DEL MUNDO.mp3"></audio>
+    </div>
+    <div class="listaCanciones">
+        <h2>Canciones</h2>
+        <ul>
+            <li class="canciones" coloreado="true"><a href="audio/BAD BUNNY - 120 _ EL ÚLTIMO TOUR DEL MUNDO.mp3">BAD BUNNY - 120 _ EL ÚLTIMO TOUR DEL MUNDO</a></li>
+            <li class="canciones"><a href="audio/BAD BUNNY - HACIENDO QUE ME AMAS _ EL ÚLTIMO TOUR DEL MUNDO.mp3">BAD BUNNY - HACIENDO QUE ME AMAS _ EL ÚLTIMO TOUR DEL MUNDO</a></li>
+            <li class="canciones"><a href="audio/BAD BUNNY x DADDY YANKEE - LA SANTA _ YHLQMDLG.mp3">BAD BUNNY x DADDY YANKEE - LA SANTA _ YHLQMDLG</a></li>
+            <li class="canciones"><a href="audio/Jósean Log - Chachachá.mp3">Jósean Log - Chachachá</a></li>
+            <li class="canciones"><a href="audio/Natalia Lafourcade - Hasta la Raíz.mp3">Natalia Lafourcade - Hasta la Raíz</a></li>
+            <li class="canciones"><a href="audio/Tainy, Bad Bunny, Julieta Venegas - Lo Siento BB.mp3">Tainy, Bad Bunny, Julieta Venegas - Lo Siento BB</a></li>
+        </ul>
+    </div>
+    <script src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

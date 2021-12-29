@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.canciones a{
+    pointer-events: none;
+    cursor: default;
+    color: black;
+    text-decoration: none;
+  }
+.canciones:hover{
+    cursor: pointer;
+}
+li:hover{
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+.reproductor{
+    width: 500px;
+    margin: auto;
+    /* position: relative; */
+}
+.reproductor p{
+    text-align: center;
+    height: 50px;
+}
+.reproductor #img{
+    width: 300px;
+    /* height: 300px; */
+    margin: auto;
+}
+.reproductor #img img{
+    width: 100%;
+    height: auto;
+    /* border-radius: 50%; */
+    clip-path: circle(32% at 49% 50%);
+
+}
+.reproductor #btn{
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-around;
+}
+.reproductor button{
+    /* position: absolute; */
+    z-index: 99;
+    /* display: inline-block; */
+    width: 50px;
+    height: 30px;
+    padding-top: 2px;
+    font-size: 20px;
+    border-radius: 100px;
+    border: 0px;
+    outline: 4px solid rgba(114, 85, 114, 0.233);
+}
+.reproductor audio{
+    width: 100%;
+}
+
+.listaCanciones{
+    margin: 10px;
+}
+.listaCanciones ul{
+    margin-top: 10px;
+    margin-left: 30px;
+    list-style: none;
+
+}
+.listaCanciones ul li{
+    padding: 10px;
+    background-color: none;
+}
+.listaCanciones ul li:hover{
+    background-color: aquamarine;
+}
+
+/* #rotarImg{
+    transform: rotate(-10deg);
+} */
+
+#musica{
+    margin-top: 10px;
+    background-color: rgba(114, 85, 114, 0.233);
+    padding: 10px;
+    border-radius: 50px;
+}
+body{
+    background-color: bisque;
+}
